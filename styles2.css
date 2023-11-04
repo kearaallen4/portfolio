@@ -1,0 +1,27 @@
+.main-container {
+    background-image: url(assets/curvy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Dancing Script;
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: lighter;
+    color: beige;
+}
+
+p {
+    font-family: Indie Flower;
+    text-align: right;
+    font-size: 25px;
+    font-weight: lighter;
+    color: beige;
+
+}

@@ -1,0 +1,91 @@
+h1 {
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    font-family: Marck Script;
+    text-align: center;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: lighter;
+    color: black;
+    opacity: 0.8;
+    padding: 0%;
+    margin-right: 15%;
+}
+
+p {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: Playpen Sans;
+    color: #1b3a59;
+    text-align: center;
+    padding: 0% 30% 0% 10%;
+    font-size: 28px;
+    margin: 0;
+}
+
+nav {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    padding: 0% 5% 10% 10%;
+    line-height: 900%;
+    margin-left: 15%;
+    align-self: center;
+}
+
+
+.list {
+    padding: 0 5% 5% 5%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.links {
+    background-color: #1b3a59;
+    opacity: 0.8;
+    border: 2px solid black;
+    border-radius: 70px;
+    color: beige;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    font-size: 25px;
+    font-family: Indie Flower;
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+    width: 100%;
+    background-image: url(assets/water.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 5%;
+}
+
+img {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 18%;
+    margin-bottom: 15%;
+}
+
+.rcorners {
+    border-radius: 100px;
+    background: #1b3a59;
+    padding: 8px;
+    width: 325px;
+    height: 400px;
+}
