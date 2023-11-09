@@ -11,6 +11,7 @@ h1 {
     opacity: 1;
     padding: 0%;
     margin-right: 15%;
+    margin-bottom: 0px;
 }
 
 p {
@@ -46,7 +47,7 @@ nav {
     background-color: #1b3a59;
     opacity: 0.8;
     border: 2px solid black;
-    border-radius: 70px;
+    border-radius: 20px;
     color: beige;
     text-decoration: none;
     padding: 10px 20px;
