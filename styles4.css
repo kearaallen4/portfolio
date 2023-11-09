@@ -6,6 +6,7 @@
     height: 100vh;
     width: 100%;
     overflow: hidden;
+    text-align: center;
 
 }
 
@@ -52,4 +53,19 @@ div {
 .fa-github {
     background: #881288;
     color: white;
+}
+
+button {
+    background-color: beige;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Playpen Sans;
+    opacity: 0.6;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
 }
